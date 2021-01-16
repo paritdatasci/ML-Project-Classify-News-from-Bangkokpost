@@ -13,7 +13,7 @@ These are the steps that I took:
 
 5. After tuning the model by setting new hyperparameter as followed (estimator=MultinomialNB(alpha=1.0, class_prior=None,fit_prior=True)), it turned out that the model had slightly better performance. It gave accuracy score around 0.951 running 500 times. Moreover, other indicators such precision score, recall and F1-score also improved (Please look at classification report in Notebook)
 
-6. My plan after finishing creating this machine learning model is to collect the performace of the model by collecting 60 new news everyday for 30 days and collect its performance. so that I can see how long it takes retrain the model. For now I set up threshold for retrain ML model after its accuracy score is below 85%.
+6. My plan after finishing creating this machine learning model is to collect the performace of the model by collecting 60 new news everyday for 30 days and record its performance. so that I can see how long it takes retrain the model. For now I set up threshold for retrain ML model after its accuracy score is below 85%.
 
 I would be very appreciated if anyone can help me or suggest me the better way to improve machine learning model because I am very new in datascience field.
 
