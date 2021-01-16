@@ -7,7 +7,7 @@ These are the steps that I took:
 
 2. After that I started to do feature extraction on both TF-IDF and CountVectorizer so that I can use them as a feature for training machine learning model. 
 
-3. During the process of selecting machine learning model, I used cross validation score as a measure for deciding which model is the best. It appeared that Multinomial Naive Bayes provides the highest cross validation score, approximately 90%. The second best model is support vector machine - SVC(kernel='linear'), around 87-89%. Therefore, I chose MultinomialNB.
+3. During the process of selecting machine learning model, I used cross validation score as a measure for deciding which model is the best. It appeared that Multinomial Naive Bayes provides the highest cross validation score, approximately 90%. The second best model is support vector machine - SVC(kernel='linear'), around 87-89%. Therefore, MultinomialNB was chosen.
  
 4. After training MultinomialNB model in the first round by setting hyperparameter at default, it gave accuracy score around 0.942 running 500 times(please look at the histogram in Notebook). The model did best on general news prediction with F1- Score around 0.96.
 
