@@ -1,5 +1,5 @@
 # Machine Learning for Classifying-News-from-Bangkokpost
-This project is to develope Machine Learning Model to classify News Category from Bangkokpost.com. News are seperated into three types which are Business News, Politics News and General News.
+This project is to develope machine learning model to classify news category from Bangkokpost.com. News is seperated into three types which are Business News, Politics News and General News which will be used as label/target.
 
 These are the steps that I took: 
 
