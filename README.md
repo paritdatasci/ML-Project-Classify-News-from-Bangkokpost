@@ -15,7 +15,7 @@ These are the steps that I took:
 
 6. My plan after finishing creating this machine learning model is to collect the performace of the model by collecting 60 new news everyday for 30 days and collect its performance. so that I can see how long it takes retrain the model. For now I set up threshold for retrain ML model after its accuracy score is below 85%.
 
-I would be very appreciated if anyone can help me or suggest me the better way to improve machine learning model because I am very news in datascience field.
+I would be very appreciated if anyone can help me or suggest me the better way to improve machine learning model because I am very new in datascience field.
 
 
 Thank you,
